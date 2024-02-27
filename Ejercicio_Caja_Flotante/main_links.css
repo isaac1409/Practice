@@ -1,0 +1,35 @@
+.body {
+    background-color: #eee; /*Sirve para darle color al background */
+}
+.a { /*Para darle estilo generico*/
+    color: hotpink; /*Color texto*/
+    background-color: rgb(156, 130, 14);
+    border: solid 1px rgb(122, 122, 20);
+    padding: 10px; /*medidas del interior, puede hacer parecer un boton*/
+    border-radius: 4px; /*redondea el borde, esquinas*/
+
+}
+
+/*Para darle estilo cada caso especifico de los 4 que tiene un link*/
+
+a:link { /*Darle estilo a los link de otra forma*/
+    color: pink;
+    text-decoration: none; /*Decoracion de texto, en este caso quitamos el underline*/
+
+}
+
+a:visited { /*Darle estilo a los link cuando ya fueron vistados*/
+    color: white;
+}
+
+a:hover { /*Darle estilo a los link sobrepone el cursor*/
+    color: white;
+    text-decoration: underline; /*Decoracion de texto, en este caso quitamos el underline*/
+    background-color: rgb(153, 153, 37);
+
+}
+
+a:active { /*Darle estilo a los link cuando se sostienen en click*/
+    color: black;
+}
+

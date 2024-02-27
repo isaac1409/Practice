@@ -1,7 +1,7 @@
 body {
     background-color: #eee;
 }
-.caja {
+.caja { /*Caracteristicas de la caja (para que se vea flotante) */
 background-color: #fff;
 border-style: solid;
 border-width: 1px;
@@ -9,24 +9,24 @@ border-color: #ccc;
 border-radius: 4px;
 border-top: solid 0px;
 }
-.header{
+.header{ /*Caracteristicas de cabecera */
     padding: 10px;
     border-top: solid 1px #eee;
 }
-.contenido{
+.contenido{ /*Caracteristicas de contenido */
     padding: 10px;
 }
-.footer{
+.footer{ /*Caracteristicas de footer */
     padding: 10px;
     border-top: solid 1px #eee;
 }
-.primario{
+.primario{ /*Caracteristicas del boton primario */
     background-color: rgb(64, 144, 168);
     border: 0px;
     padding: 5px;
     color: #fff
 }
-.secundario{
+.secundario{ /*Caracteristicas del boton secundario*/
     background-color: #aaa;
     border: 0px;
     padding: 5px;

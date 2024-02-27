@@ -1,0 +1,7 @@
+.body {
+    background-color: #eee; /*Sirve para darle color al background */
+}
+ul li{ /*Se da estilo al elemento dentro de ul que es li*/
+    list-style-type: upper-alpha; /*Tipo de estilo de la lista (circle,square,upper-romman,lower-alpha)*/
+    
+}

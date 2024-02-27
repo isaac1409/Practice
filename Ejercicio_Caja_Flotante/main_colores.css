@@ -1,0 +1,19 @@
+.body {
+    background-color: #eee; /*Sirve para darle color al background */
+}
+.p {
+    color: #222fff; /*Sirve para darle color al texto */
+    text-align: left ; /*Sirve para alienar el texto */
+    text-indent: 15px; /*Cambiar identacion de texto primer linea*/
+    line-height: 1.38; /*Separacion entre textos*/
+    word-spacing: 10px; /*Espacio entre palabras*/
+    text-shadow: 1px 2px 2px rgb(151, 135, 135); /*Sombras, el primero es dezplazamiento a la derecha y el segundo hacia abajo y la tercera es el difuminado y luego color*/
+}
+.a {
+    text-decoration: none; /*Decorar el teto */
+    text-transform: capitalize; /* Puedes jugar con letras mayusculas o minusculas o capitales*/
+    letter-spacing: 3px; /*Separacion entre letras*/
+    
+    
+}
+
